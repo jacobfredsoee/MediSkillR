@@ -13,7 +13,7 @@ library(MediSkillR)
 ```R
 library(MediSkillR)
 
-mediConn = mediskillConnection('your token here', "https://mediskill.dk/API/")
+mediConn = mediskillConnection('your token here')
 
 allProcedures = getProcedures(mediConn)
 ```
