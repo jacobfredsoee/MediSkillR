@@ -4,7 +4,7 @@
 \alias{mediskillConnection}
 \title{Creates a connection object for the MediSkill API}
 \usage{
-mediskillConnection(token, url = "https://mediskill.dk/api/")
+mediskillConnection(token, url = "https://mediskill.dk/API/")
 }
 \arguments{
 \item{token}{The API token}

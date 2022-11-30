@@ -10,7 +10,7 @@
 #' @param token The API token
 #' @return A connection object
 #' @export
-mediskillConnection = function (token, url = "https://mediskill.dk/api/") {
+mediskillConnection = function (token, url = "https://mediskill.dk/API/") {
 
   if (is.na(url) && missing(conn))
     stop("Need one of url or conn")
