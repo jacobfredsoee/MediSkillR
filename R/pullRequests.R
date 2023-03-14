@@ -56,3 +56,12 @@ getEVARATEs = function(mediConnection) {
 getUsers = function(mediConnection) {
   getTable("users", mediConnection)
 }
+
+#' Gets all supervisor details from MediSkill
+#'
+#' @param mediConnection The API connection
+#' @return A data.frame with the results
+#' @export
+getSupervisors = function(mediConnection) {
+  getTable("supervisors", mediConnection)
+}

@@ -3,6 +3,7 @@
 export(getEVARATEs)
 export(getOPERATEs)
 export(getProcedures)
+export(getSupervisors)
 export(getUsers)
 export(getVOTs)
 export(mediskillConnection)
