@@ -1,9 +1,9 @@
 Package: MediSkillR
-Title: API for MediSkill
-Version: 0.0.1
+Title: An API for MediSkill
+Version: 0.0.2
 Authors@R: 
     person("Jacob", "Fredsøe", , "jf@mediskill.dk", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0002-7319-2467"))
 Description: API for getting data from MediSkill.dk.
 License: use_mit_license()
 Encoding: UTF-8
